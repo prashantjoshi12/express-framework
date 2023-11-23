@@ -1,0 +1,19 @@
+# Ignore Node.js related files and directories
+node_modules/
+package-lock.json
+.env
+config/config.env
+
+# Ignore logs and build files
+logs/
+dist/
+coverage/
+
+# Ignore environment-specific configuration files
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Ignore any other sensitive files or directories
+secret-key.txt
